@@ -126,7 +126,7 @@ export const projects = [
     stack: ["React", "Vite", "Tailwind", "Framer Motion", "EmailJS"],
     github: "https://github.com/MokabbirMisho",
     live: "https://mokabbir-portfolio.vercel.app/",
-    thumbnail: "https://image.thum.io/get/width/1280/crop/720/noanimate/https://mokabbir-portfolio.vercel.app/",
+    thumbnail: "/thumbnail/portfolio-screenshot.png",
   },
   {
     title: "Role-Based Dashboard",
