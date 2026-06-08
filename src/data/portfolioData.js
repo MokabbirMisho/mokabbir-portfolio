@@ -119,6 +119,16 @@ export const projects = [
     thumbnail: "https://image.thum.io/get/width/1280/crop/720/noanimate/https://employee-mangement-system-frontend.vercel.app/login",
   },
   {
+    title: "Personal Portfolio",
+    category: "Full Stack",
+    description:
+      "A modern, responsive developer portfolio built with React and Vite. Features smooth animations, EmailJS contact form, and a clean sidebar navigation.",
+    stack: ["React", "Vite", "Tailwind", "Framer Motion", "EmailJS"],
+    github: "https://github.com/MokabbirMisho",
+    live: "https://mokabbir-portfolio.vercel.app/",
+    thumbnail: "https://image.thum.io/get/width/1280/crop/720/noanimate/https://mokabbir-portfolio.vercel.app/",
+  },
+  {
     title: "Role-Based Dashboard",
     category: "Full Stack",
     description:
