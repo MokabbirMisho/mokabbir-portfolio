@@ -100,7 +100,7 @@ export const education = [
 export const projects = [
   {
     title: "NexaMobiles — E-commerce",
-    category: "Frontend",
+    category: "Full Stack",
     description:
       "A responsive e-commerce web app for mobile phones with product listing, cart, filters, and Redux-based state management.",
     stack: ["React", "Vite", "Tailwind", "Redux"],
