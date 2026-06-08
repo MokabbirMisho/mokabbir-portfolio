@@ -5,7 +5,7 @@ import { personalInfo } from "../data/portfolioData";
 
 // ── EmailJS config ──────────────────────────────────────────────
 // Replace these three values after setting up your EmailJS account
-const EMAILJS_SERVICE_ID = "service_3sqzorn";
+const EMAILJS_SERVICE_ID = "service_8znckl8";
 const EMAILJS_TEMPLATE_ID = "template_9undb28";
 const EMAILJS_PUBLIC_KEY = "Yy97Qk7cR1ewanmen";
 // ───────────────────────────────────────────────────────────────
