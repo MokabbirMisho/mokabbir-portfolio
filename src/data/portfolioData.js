@@ -103,7 +103,7 @@ export const projects = [
     category: "Full Stack",
     description:
       "A responsive e-commerce web app for mobile phones with product listing, cart, filters, and Redux-based state management.",
-    stack: ["React", "Vite", "Tailwind", "Redux"],
+    stack: ["React", "Vite", "Tailwind", "Redux", "Node", "Express", "Prisma", "PostgreSQL", "Google OAuth"],
     github: "https://github.com/MokabbirMisho",
     live: "https://nexamobiles.vercel.app/",
     thumbnail: "https://image.thum.io/get/width/1280/crop/720/noanimate/https://nexamobiles.vercel.app/",
