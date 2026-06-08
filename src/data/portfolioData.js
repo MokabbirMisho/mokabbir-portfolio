@@ -106,7 +106,7 @@ export const projects = [
     stack: ["React", "Vite", "Tailwind", "Redux", "Node", "Express", "Prisma", "PostgreSQL", "Google OAuth"],
     github: "https://github.com/MokabbirMisho",
     live: "https://nexamobiles.vercel.app/",
-    thumbnail: "https://image.thum.io/get/width/1280/crop/720/noanimate/https://nexamobiles.vercel.app/",
+    thumbnail: "/thumbnail/nexa-screenshot.png",
   },
   {
     title: "Employee Management System",
