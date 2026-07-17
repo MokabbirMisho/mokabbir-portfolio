@@ -48,36 +48,36 @@ export const skillCategories = [
   },
 ];
 
-export const experiences = [
-  {
-    role: "Junior Software Engineer",
-    company: "Unisoft Systems BD",
-    period: "Previous Role",
-    points: [
-      "Built and maintained ERP-related features using modern web technologies.",
-      "Worked with REST APIs, database operations, and client-side improvements.",
-      "Improved application performance and supported user training.",
-    ],
-  },
-  {
-    role: "Working Student IT Support",
-    company: "BA Business Advice GmbH, Köln",
-    period: "02/2022 - 10/2022",
-    points: [
-      "Supported hardware, software, Windows, MS Office, and helpdesk tasks.",
-      "Handled basic Active Directory and user support responsibilities.",
-    ],
-  },
-  {
-    role: "Shift Lead",
-    company: "Flink",
-    period: "10/2022 - 08/2024",
-    points: [
-      "Managed daily operational workflows and team coordination.",
-      "Built strong communication, problem-solving, and leadership skills.",
-    ],
-  },
-];
+// export const experiences = [
+//   {
+//     role: "Junior Software Engineer",
+//     company: "Unisoft Systems BD",
+//     period: "Previous Role",
+//     points: [
+//       "Built and maintained ERP-related features using modern web technologies.",
+//       "Worked with REST APIs, database operations, and client-side improvements.",
+//       "Improved application performance and supported user training.",
+//     ],
+//   },
+//   {
+//     role: "Working Student IT Support",
+//     company: "BA Business Advice GmbH, Köln",
+//     period: "02/2022 - 10/2022",
+//     points: [
+//       "Supported hardware, software, Windows, MS Office, and helpdesk tasks.",
+//       "Handled basic Active Directory and user support responsibilities.",
+//     ],
+//   },
+//   {
+//     role: "Shift Lead",
+//     company: "Flink",
+//     period: "10/2022 - 08/2024",
+//     points: [
+//       "Managed daily operational workflows and team coordination.",
+//       "Built strong communication, problem-solving, and leadership skills.",
+//     ],
+//   },
+// ];
 
 export const education = [
   {
@@ -98,6 +98,45 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    title: "AI Ticket Manager",
+    category: "Full Stack SaaS",
+    description:
+      "An AI-powered support platform that categorizes tickets, summarizes issues, and suggests replies—helping teams respond faster and reduce repetitive manual work.",
+    stack: [
+      "React",
+      "TypeScript",
+      "Express",
+      "PostgreSQL",
+      "Prisma",
+      "Supabase",
+      "Session Auth",
+      "OpenAI API",
+    ],
+    github: "https://github.com/MokabbirMisho/ai-ticket-manager",
+    live: "https://ai-ticket-manager-xi.vercel.app",
+    thumbnail:
+      "https://image.thum.io/get/width/1280/crop/720/noanimate/https://ai-ticket-manager-xi.vercel.app",
+  },
+  {
+    title: "FoodHub",
+    category: "Full Stack",
+    description:
+      "A food delivery platform connecting customers, restaurants, and riders in one workflow—making ordering, menu management, and delivery tracking simpler for everyone.",
+    stack: [
+      "React",
+      "Tailwind",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Socket.io",
+      "Cloudinary",
+    ],
+    github: "https://github.com/MokabbirMisho",
+    live: "https://foodhub-phi-wine.vercel.app",
+    thumbnail:
+      "https://image.thum.io/get/width/1280/crop/720/noanimate/https://foodhub-phi-wine.vercel.app",
+  },
   {
     title: "NexaMobiles — E-commerce",
     category: "Full Stack",
@@ -138,56 +177,6 @@ export const projects = [
     github: "https://github.com/MokabbirMisho",
     live: "https://mokabbir-portfolio.vercel.app/",
     thumbnail: "/thumbnail/portfolio-screenshot.png",
-  },
-  {
-    title: "Role-Based Dashboard",
-    category: "Full Stack",
-    description:
-      "Full-stack role-based access control dashboard with admin and user views, authentication, and protected routes.",
-    stack: ["React", "Tailwind", "Node", "Express", "JWT"],
-    github: "https://github.com/MokabbirMisho",
-    live: "https://role-based-dashboard-phi.vercel.app/login",
-    thumbnail:
-      "https://image.thum.io/get/width/1280/crop/720/noanimate/https://role-based-dashboard-phi.vercel.app/login",
-  },
-  {
-    title: "AI Ticket Manager",
-    category: "Full Stack SaaS",
-    description:
-      "An AI-assisted platform that Simplify support workflows through automatic categorization, ticket summaries, suggested replies, and role-based access for secure and organized ticket management to reduce repetitive manual work when reviewing,categorizing, and responding to customer tickets.",
-    stack: [
-      "React",
-      "TypeScript",
-      "Express",
-      "PostgreSQL",
-      "Prisma",
-      "Supabase",
-      "Session Auth",
-      "OpenAI API",
-    ],
-    github: "https://github.com/MokabbirMisho/ai-ticket-manager",
-    live: "https://ai-ticket-manager-xi.vercel.app",
-    thumbnail:
-      "https://image.thum.io/get/width/1280/crop/720/noanimate/https://ai-ticket-manager-xi.vercel.app",
-  },
-  {
-    title: "FoodHub",
-    category: "Full Stack",
-    description:
-      "Full-stack food delivery platform that connects customers, restaurant owners, riders, and admins through one complete ordering and delivery workflow. Simplified restaurant discovery, ordering, menu and delivery management while providing real-time status updates for bettercoordination between all users ",
-    stack: [
-      "React",
-      "Tailwind",
-      "Express",
-      "MongoDB",
-      "JWT",
-      "Socket.io",
-      "Cloudinary",
-    ],
-    github: "https://github.com/MokabbirMisho",
-    live: "https://foodhub-phi-wine.vercel.app",
-    thumbnail:
-      "https://image.thum.io/get/width/1280/crop/720/noanimate/https://foodhub-phi-wine.vercel.app",
   },
 ];
 
