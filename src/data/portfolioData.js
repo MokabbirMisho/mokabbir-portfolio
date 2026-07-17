@@ -103,7 +103,17 @@ export const projects = [
     category: "Full Stack",
     description:
       "A responsive e-commerce web app for mobile phones with product listing, cart, filters, and Redux-based state management.",
-    stack: ["React", "Vite", "Tailwind", "Redux", "Node", "Express", "Prisma", "PostgreSQL", "Google OAuth"],
+    stack: [
+      "React",
+      "Vite",
+      "Tailwind",
+      "Redux",
+      "Node",
+      "Express",
+      "Prisma",
+      "PostgreSQL",
+      "Google OAuth",
+    ],
     github: "https://github.com/MokabbirMisho",
     live: "https://nexamobiles.vercel.app/",
     thumbnail: "/thumbnail/nexa-screenshot.png",
@@ -116,7 +126,8 @@ export const projects = [
     stack: ["React", "Node", "Express", "MongoDB", "JWT"],
     github: "https://github.com/MokabbirMisho",
     live: "https://employee-mangement-system-frontend.vercel.app/login",
-    thumbnail: "https://image.thum.io/get/width/1280/crop/720/noanimate/https://employee-mangement-system-frontend.vercel.app/login",
+    thumbnail:
+      "https://image.thum.io/get/width/1280/crop/720/noanimate/https://employee-mangement-system-frontend.vercel.app/login",
   },
   {
     title: "Personal Portfolio",
@@ -136,7 +147,47 @@ export const projects = [
     stack: ["React", "Tailwind", "Node", "Express", "JWT"],
     github: "https://github.com/MokabbirMisho",
     live: "https://role-based-dashboard-phi.vercel.app/login",
-    thumbnail: "https://image.thum.io/get/width/1280/crop/720/noanimate/https://role-based-dashboard-phi.vercel.app/login",
+    thumbnail:
+      "https://image.thum.io/get/width/1280/crop/720/noanimate/https://role-based-dashboard-phi.vercel.app/login",
+  },
+  {
+    title: "AI Ticket Manager",
+    category: "Full Stack SaaS",
+    description:
+      "An AI-assisted platform that Simplify support workflows through automatic categorization, ticket summaries, suggested replies, and role-based access for secure and organized ticket management to reduce repetitive manual work when reviewing,categorizing, and responding to customer tickets.",
+    stack: [
+      "React",
+      "TypeScript",
+      "Express",
+      "PostgreSQL",
+      "Prisma",
+      "Supabase",
+      "Session Auth",
+      "OpenAI API",
+    ],
+    github: "https://github.com/MokabbirMisho/ai-ticket-manager",
+    live: "https://ai-ticket-manager-xi.vercel.app",
+    thumbnail:
+      "https://image.thum.io/get/width/1280/crop/720/noanimate/https://ai-ticket-manager-xi.vercel.app",
+  },
+  {
+    title: "FoodHub",
+    category: "Full Stack",
+    description:
+      "Full-stack food delivery platform that connects customers, restaurant owners, riders, and admins through one complete ordering and delivery workflow. Simplified restaurant discovery, ordering, menu and delivery management while providing real-time status updates for bettercoordination between all users ",
+    stack: [
+      "React",
+      "Tailwind",
+      "Express",
+      "MongoDB",
+      "JWT",
+      "Socket.io",
+      "Cloudinary",
+    ],
+    github: "https://github.com/MokabbirMisho",
+    live: "https://foodhub-phi-wine.vercel.app",
+    thumbnail:
+      "https://image.thum.io/get/width/1280/crop/720/noanimate/https://foodhub-phi-wine.vercel.app",
   },
 ];
 
